@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.play-regular {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3.6rem;
+    color: #f3f7ec;
+}
+
+.encabezado {
+    width: 100%;
+    height: 6rem;
+    background-color: #6b6dab;
+    padding-top: 2.2rem;
+    display: flex;
+}
+
+.indice-encabezado {
+    margin-top: 2.3rem;
+    margin-left: 4rem;
+}
+
+.indice {
+    text-decoration: none;
+    padding-right: 0.5rem;
+    color: #f3f7ec;
+}
+
+.indice:hover {
+    text-decoration: underline;
+}
+
+.indice:active {
+    color: #f3f7ece4;
+}
+
+.seccion-on-fire {
+    border: 0.1rem solid black;
+    margin-top: 4rem;
+    height: 34rem;
+}
+
+.seccion-on-fire h2 {
+    font-size: 1.8rem;
+}
+
+.contenedor-carta {
+    border: 0.1rem solid black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 80%;
+    display: flex;
+}
+
+.carta {
+    border: 0.1rem solid black;
+    width: 20%;
+    height: 90%;
+    margin: 2rem;
+    text-align: center;
+}
+
+.carta img {
+    margin-top: 1.2rem;
+}
+
+.carta h3 {
+    font-size: 1.5rem;
+}
+
+.datos-carta {
+    margin-top: 1rem;
+    border: 0.1rem solid black;
+    width: 60%;
+    margin-left: 3.8rem;
+    text-align: left;
+}
+
+.datos-carta p {
+    font-family: "Play";
+    font-size: 1rem;
+    padding-bottom: 0.9rem;
+}
+
+.datos-carta b {
+    font-size: 1.2rem;
+}
