@@ -5,6 +5,10 @@
     font-size: 16px;
 }
 
+html {
+    background-color: #fafcf6;
+}
+
 .play-regular {
     font-family: "Play", sans-serif;
     font-weight: 400;
@@ -50,9 +54,9 @@ h1 {
 }
 
 .seccion-on-fire {
-    border: 0.1rem solid black;
     margin-top: 4rem;
     height: 34rem;
+    background-color: #f7faf2;
 }
 
 .seccion-on-fire h2 {
@@ -60,20 +64,22 @@ h1 {
 }
 
 .contenedor-carta {
-    border: 0.1rem solid black;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
     height: 80%;
     display: flex;
+    background-color: #f3f7ec;
+    flex-wrap: wrap;
 }
 
 .carta {
-    border: 0.1rem solid black;
-    width: 20%;
+    border: 0.15rem solid #e8e8e893;
+    width: 16.5rem;
     height: 90%;
     margin: 2rem;
     text-align: center;
+    background-color: #f4f4f4a4;
 }
 
 .carta img {
@@ -87,8 +93,9 @@ h1 {
 .datos-carta {
     margin-top: 1rem;
     border: 0.1rem solid black;
-    width: 60%;
-    margin-left: 3.8rem;
+    width: 80%;
+    height: 30%;
+    margin-left: 1.8rem;
     text-align: left;
 }
 
