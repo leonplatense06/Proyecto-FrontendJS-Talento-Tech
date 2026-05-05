@@ -74,9 +74,9 @@ h1 {
 }
 
 .carta {
-    border: 0.15rem solid #e8e8e893;
+    border: 0.15rem solid #6b6daba5;
     width: 16.5rem;
-    height: 90%;
+    height: 93%;
     margin: 2rem;
     text-align: center;
     background-color: #f4f4f4a4;
@@ -91,8 +91,7 @@ h1 {
 }
 
 .datos-carta {
-    margin-top: 1rem;
-    border: 0.1rem solid black;
+    margin-top: 0.2rem;
     width: 80%;
     height: 30%;
     margin-left: 1.8rem;
@@ -107,4 +106,26 @@ h1 {
 
 .datos-carta b {
     font-size: 1.2rem;
+}
+
+.boton-descarga {
+    border: 0.1rem solid rgb(102, 104, 161);
+    background-color: #70b9d3; 
+    color: #f3f7ec;
+    width: 8rem;
+    border-radius: 1.5rem;
+    margin-top: -1rem;
+    height: 2rem;
+}
+
+.boton-descarga:hover {
+    background-color: #83d0ed;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.boton-descarga:active {
+    box-shadow: -0.3rem -0.3rem 0.1rem 0 inset #45c2f0;
+    text-decoration: underline;
+    transform: scale(1);
 }
