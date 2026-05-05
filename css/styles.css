@@ -53,20 +53,20 @@ h1 {
     color: #f3f7ece4;
 }
 
-.seccion-on-fire {
+.seccion-de-cards {
     margin-top: 4rem;
     height: 34rem;
     background-color: #f7faf2;
 }
 
-.seccion-on-fire h2 {
+.seccion-de-cards h2 {
     font-size: 1.8rem;
 }
 
 .contenedor-carta {
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     height: 80%;
     display: flex;
     background-color: #f3f7ec;
@@ -128,4 +128,53 @@ h1 {
     box-shadow: -0.3rem -0.3rem 0.1rem 0 inset #45c2f0;
     text-decoration: underline;
     transform: scale(1);
+}
+
+.seccion-pie-pagina {
+    background-color: #505181;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.seccion-pie-pagina h2 {
+    color: #f3f7ec;
+    align-self: flex-start;
+    margin-left: 0.1rem;
+    font-size: 2.5rem;
+}
+
+.iframe-mapa {
+    margin-left: 0.5rem;
+    
+}
+
+.seccion-pie-pagina form {
+    align-self: flex-start;
+    margin-top: 5rem;
+    margin-left: -18.55rem;
+}
+
+.seccion-pie-pagina form textarea {
+    border: 0.1rem solid #2b2b2b;
+    border-radius: 0.5rem;
+    width: 25rem;
+    height: 6rem;
+}
+
+.input-footer-label {
+    color: #f3f7ec;
+    font-size: 1.1rem;
+}
+
+.input-footer-form {
+    border: 0.1rem solid #2b2b2b;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 12rem;
+}
+
+.form-button-submit {
+    margin-top: 1rem;
 }
