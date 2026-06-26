@@ -55,8 +55,9 @@ h1 {
 
 .seccion-de-cards {
     margin-top: 4rem;
-    height: 34rem;
+    min-height: 34rem;
     background-color: #f7faf2;
+    padding-bottom: 2rem;
 }
 
 .seccion-de-cards h2 {
@@ -76,14 +77,20 @@ h1 {
 .carta {
     border: 0.15rem solid #6b6daba5;
     width: 16.5rem;
-    height: 93%;
+    height: 25rem;
     margin: 2rem;
     text-align: center;
     background-color: #f4f4f4a4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .carta img {
     margin-top: 1.2rem;
+    width: 80%;            /* Ajusta el ancho al 80% de la carta */
+    height: 9rem;         /* Define una altura fija */
+    object-fit: contain;   /* Hace que la imagen se adapte sin recortarse ni estirarse MUY util*/
 }
 
 .carta h3 {
@@ -91,11 +98,10 @@ h1 {
 }
 
 .datos-carta {
-    margin-top: 0.2rem;
     width: 80%;
-    height: 30%;
-    margin-left: 1.8rem;
+    margin-left: 0.5rem;
     text-align: left;
+    flex-grow: 1;
 }
 
 .datos-carta p {
@@ -114,7 +120,8 @@ h1 {
     color: #f3f7ec;
     width: 8rem;
     border-radius: 1.5rem;
-    margin-top: -1rem;
+    margin-top: auto;
+    margin-bottom: 1rem;
     height: 2rem;
 }
 
