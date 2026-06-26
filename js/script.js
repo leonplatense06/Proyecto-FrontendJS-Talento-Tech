@@ -2,6 +2,7 @@ const API_KEY = "f231fb0313f74f5ea69fd011580bfcd6";
 const url = `https://api.rawg.io/api/games?key=${API_KEY}&platforms=15&page=1&page_size=30&ordering=-rating`;
 const contenedorPrimeraSeccion = document.getElementById("contenedor-cartas-primera-seccion");
 const contenedorCatalogo = document.getElementById("contenedor-catalogo");
+import { agregarCarrito } from "./carrito.js";
 
 // async await lo estoy aprendiendo en un curso de Node, por eso los uso
 const hacerRequest = async () => {
@@ -60,6 +61,9 @@ try {
         const topRating = games.slice(0, 8);
 
         cargarDatosSeccionPrincipal(topRating);
+        
+        contenedorCatalogo.addEventListener("click", (event) => agregarCarrito(event));
+        contenedorPrimeraSeccion.addEventListener("click", (event) => agregarCarrito(event));
     })();
 } catch (error) {
     console.error("There was an error");

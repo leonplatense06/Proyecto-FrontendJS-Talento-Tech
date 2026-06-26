@@ -53,6 +53,19 @@ h1 {
     color: #f3f7ece4;
 }
 
+#carrito-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+#cant-carrito {
+    font-size: 1.1rem;
+    color: #f3f7ec;
+    margin-right: 0.5rem;
+}
+
 .seccion-de-cards {
     margin-top: 4rem;
     min-height: 34rem;
@@ -88,9 +101,9 @@ h1 {
 
 .carta img {
     margin-top: 1.2rem;
-    width: 80%;            /* Ajusta el ancho al 80% de la carta */
-    height: 9rem;         /* Define una altura fija */
-    object-fit: contain;   /* Hace que la imagen se adapte sin recortarse ni estirarse MUY util*/
+    width: 80%;
+    height: 9rem;
+    object-fit: contain; /*Hace que la imagen se adapte sin recortarse ni estirarse MUY util*/
 }
 
 .carta h3 {
