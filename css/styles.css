@@ -198,3 +198,46 @@ h1 {
 .form-button-submit {
     margin-top: 1rem;
 }
+
+.contenedor-resenas-grid {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    background-color: #f3f7ec;
+    flex-wrap: wrap;
+}
+
+.tarjeta-resena {
+    border: 0.15rem solid #6b6daba5;
+    width: 28rem;
+    height: 14rem;
+    margin: 2rem;
+    padding: 1.5rem;
+    text-align: left;
+    background-color: #f4f4f4a4;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.tarjeta-resena h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.resena-estrellas {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.resena-texto {
+    font-family: "Play";
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+    flex-grow: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
